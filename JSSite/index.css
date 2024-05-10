@@ -1,0 +1,152 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d82f1;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, li div a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #62b9f6;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+#text {
+    color: rgb(51, 49, 51);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.5;
+}
+
+.custom-table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-header {
+    background-color: #f2f2f2;
+}
+
+.table-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.content-container {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.custom-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.list-item {
+    margin-bottom: 15px;
+}
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.image-cell {
+    text-align: center;
+}
+
+.table-image {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+}
+
+.content-cell {
+    padding: 20px;
+    vertical-align: top;
+}
+
+.content-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+/* styles.css */
+
+.accordion {
+    margin-bottom: 20px;
+}
+
+.accordion-title {
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.active {
+    background-color: #ddd;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.input-field {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.error-message {
+    display: none;
+    color: red;
+}

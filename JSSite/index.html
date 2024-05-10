@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+    <title>My Blog</title>
+</head>
+<body onload="onLoad()">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>  
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="hometown.html">Home Town</a></li>
+    </ul>
+
+    <div style="margin-top: 30px;">
+        <h2>Hello! This is my Home Page.</h2>
+        <h2 id="text"></h2>
+    </div>
+        <div class="accordion">
+            <div class="accordion-title">Accordion 1</div>
+            <div class="accordion-content">
+                <h4>The best phones of 2024.</h4>
+                <ul style="background-color: aliceblue;">
+                    <li>Samsung's latest Galaxy S24 line is the first to go all-in on AI, and the S24 Ultra, the most premium of the three, is the best Android phone today. The new Galaxy AI model embedded in the device brings a host of generative capabilities, including real-time phone call translations, the ability to circle an object on screen to perform an image-based Google search, AI-assisted photo editing and transcriptions, and even a Chat Assist feature for figuring out how to phrase a message in different tones.</li><br/><br/>
+                    <li>The latest iPhone 15 Pro Max offers everything a premium flagship smartphone should, including a brilliant 6.7-inch AMOLED display for all the media consumption -- and mobile productivity, of course. This year's model also looks and feels different than any prior Pro Max devices, as it's made of titanium instead of stainless steel and, therefore, significantly lighter in the hand. This makes the iPhone 15 Pro Max noticeably more comfortable to use, as ZDNET Editor-in-Chief Jason Hiner noted in his review.</li><br/><br/>
+                    <li>If bang for your buck is what you're after, consider the Google Pixel 8a. There are really three key reasons why you should buy the latest Pixel over any other mid-range phone: For $499, you get a comfortable 6.1-inch OLED display that ramps up to a 120Hz refresh rate, a reliable 64MP camera system, and Google's catalog of AI features like Magic Editor, Audio Eraser, and Gemini, all backed by seven years of operating system updates.</li>
+                </ul>
+            </div>
+            <div class="accordion-title">Accordion 2</div>
+            <div class="accordion-content">
+                <p>Enduring Earth is a collaboration of The Nature Conservancy, The Pew Charitable Trusts, World Wildlife Fund and ZOMALAB—who are working with local communities to mobilize ambition, resources and permanent funding for nations to tackle the world’s biodiversity and climate crises.
+
+                    Our planet is gripped by dual crises: biodiversity loss and climate change are rapidly altering our world and the natural systems we depend on. But we still have a chance to bend the trajectory of these threats so that people and nature can thrive.  
+                    
+                    The scientific evidence shows we can stem these crises if we protect at least 30% of lands, ocean and fresh water by 2030. In 2022, nearly 200 countries pledged to do just that—but most lack the support and the durable financing to deliver on these ambitions. 
+                    
+                    That’s where Enduring Earth comes in. Enduring Earth offers a proven pathway to achieve the world’s 30x30 goal with strategies that are effective, lasting, inclusive and beneficial to local communities’ economies. 
+                </p>
+                <img src="images/m1-home1.jpeg" alt="Example Image" style="width: 300px; height: auto;"
+            </div>
+            <div class="accordion-title">Accordion 3</div>
+            <div class="accordion-content">
+                <p>This is the content for Accordion 3. You can add as many accordions as you need.</p>
+                <p>Each accordion can contain unique content to provide users with relevant information.</p>
+            </div>
+        </div>
+    <button class="btn" onclick="onClickButton(1)">Button 1</button>
+    <button class="btn" onclick="onClickButton(2)">Button 2</button>
+    <button class="btn" onclick="onClickButton(3)">Button 3</button>
+
+    <div id="text" class="message"></div>
+
+    <input id="input" type="text" class="input-field" placeholder="Enter your email">
+    <button type="submit" onclick="return validate()">Validate</button>
+    <div id="errorText" class="error-message">Please enter a valid email address.</div>
+
+    <script src="main.js"></script>
+</div>
+</body>
+</html>
